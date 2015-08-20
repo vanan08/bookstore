@@ -1,0 +1,67 @@
+{
+    "_id" : "978-0544272996",
+    "title" : "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
+    "author" : "Randall Munroe",
+    "publisher" : "Houghton Mifflin Harcourt; First Edition edition (September 2, 2014)",
+    "isbn10" : "0544272994",
+    "isbn13" : "978-0544272996",
+    "language" : "english",
+    "category" : "16000",
+    "dimensions" : "7 x 1.2 x 9 inches",
+    "shippingWeight" : "1.8 pounds",
+    "description" : "Millions of people visit xkcd.com each week to read Randall Munroe’s iconic webcomic. His stick-figure drawings about science, technology, language, and love have a large and passionate following.  Fans of xkcd ask Munroe a lot of strange questions. What if you tried to hit a baseball pitched at 90 percent the speed of light? How fast can you hit a speed bump while driving and live? If there was a robot apocalypse, how long would humanity last?  In pursuit of answers, Munroe runs computer simulations, pores over stacks of declassified military research memos, solves differential equations, and consults with nuclear reactor operators. His responses are masterpieces of clarity and hilarity, complemented by signature xkcd comics. They often predict the complete annihilation of humankind, or at least a really big explosion.",
+    "price" : 12.57,
+    "quantity" : 32,
+    "active" : true
+}
+
+{
+    "_id" : "978-0805098105",
+    "title" : "Missing Microbes: How the Overuse of Antibiotics Is Fueling Our Modern Plagues",
+    "author" : "Martin J. Blaser",
+    "publisher" : "Henry Holt and Co.; 1 edition (April 8, 2014)",
+    "isbn10" : "0805098100",
+    "isbn13" : "978-0805098105",
+    "language" : "italian",
+    "category" : "16000",
+    "dimensions" : "6.3 x 1 x 9.4 inches",
+    "shippingWeight" : "1 pounds",
+    "description" : "A critically important and startling look at the harmful effects of overusing antibiotics, from the field's leading expert Tracing one scientist's journey toward understanding the crucial importance of the microbiome, this revolutionary book will take readers to the forefront of trail-blazing research while revealing the damage that overuse of antibiotics is doing to our health: contributing to the rise of obesity, asthma, diabetes, and certain forms of cancer. In Missing Microbes, Dr. Martin Blaser invites us into the wilds of the human microbiome where for hundreds of thousands of years bacterial and human cells have existed in a peaceful symbiosis that is responsible for the health and equilibrium of our body. Now, this invisible eden is being irrevocably damaged by some of our most revered medical advances--antibiotics--threatening the extinction of our irreplaceable microbes with terrible health consequences. Taking us into both the lab and deep into the fields where these troubling effects can be witnessed firsthand, Blaser not only provides cutting edge evidence for the adverse effects of antibiotics, he tells us what we can do to avoid even more catastrophic health problems in the future.",
+    "price" : 21.03,
+    "quantity" : 3,
+    "active" : false
+}
+
+{
+    "_id" : "978-1476708690",
+    "title" : "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+    "author" : "Walter Isaacson",
+    "publisher" : "Simon & Schuster; 1St Edition edition (October 7, 2014)",
+    "isbn10" : "147670869X",
+    "isbn13" : "978-1476708690",
+    "language" : "english",
+    "category" : "16000",
+    "dimensions" : "6.1 x 1.6 x 9.2 inches",
+    "shippingWeight" : "1.8 pounds",
+    "description" : "Following his blockbuster biography of Steve Jobs, The Innovators is Walter Isaacson’s revealing story of the people who created the computer and the Internet. It is destined to be the standard history of the digital revolution and an indispensable guide to how innovation really happens.  What were the talents that allowed certain inventors and entrepreneurs to turn their visionary ideas into disruptive realities? What led to their creative leaps? Why did some succeed and others fail?  In his masterly saga, Isaacson begins with Ada Lovelace, Lord Byron’s daughter, who pioneered computer programming in the 1840s. He explores the fascinating personalities that created our current digital revolution, such as Vannevar Bush, Alan Turing, John von Neumann, J.C.R. Licklider, Doug Engelbart, Robert Noyce, Bill Gates, Steve Wozniak, Steve Jobs, Tim Berners-Lee, and Larry Page",
+    "price" : 23.84,
+    "quantity" : 7,
+    "active" : true
+}
+
+{
+    "_id" : "978-1476770383",
+    "title" : "Revival: A Novel",
+    "author" : "Stephen King",
+    "publisher" : "Scribner; 1st edition (November 11, 2014)",
+    "isbn10" : "1476770387",
+    "isbn13" : "978-1476770383",
+    "language" : "english",
+    "category" : "13000",
+    "dimensions" : "6.1 x 1.4 x 9.2 inches",
+    "shippingWeight" : "1.6 pounds",
+    "description" : "A dark and electrifying novel about addiction, fanaticism, and what might exist on the other side of life.  In a small New England town, over half a century ago, a shadow falls over a small boy playing with his toy soldiers. Jamie Morton looks up to see a striking man, the new minister. Charles Jacobs, along with his beautiful wife, will transform the local church. The men and boys are all a bit in love with Mrs. Jacobs; the women and girls feel the same about Reverend Jacobs—including Jamie’s mother and beloved sister, Claire. With Jamie, the Reverend shares a deeper bond based on a secret obsession. When tragedy strikes the Jacobs family, this charismatic preacher curses God, mocks all religious belief, and is banished from the shocked town.  Jamie has demons of his own. Wed to his guitar from the age of thirteen, he plays in bands across the country, living the nomadic lifestyle of bar-band rock and roll while fleeing from his family’s horrific loss. In his mid-thirties—addicted to heroin, stranded, desperate—Jamie meets Charles Jacobs again, with profound consequences for both men. Their bond becomes a pact beyond even the Devil’s devising, and Jamie discovers that revival has many meanings.",
+    "price" : 14.71,
+    "quantity" : 12,
+    "active" : true
+}

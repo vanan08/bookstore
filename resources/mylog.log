@@ -1,0 +1,30 @@
+{ _id: 0, text: "All Books", items: [] }
+{ _id: 1000, text: "Arts & Photography", items: [] }
+{ _id: 2000, text: "Audiobooks", items: [] }
+{ _id: 3000, text: "Biographies & Memoirs", items: [] }
+{ _id: 4000, text: "Business & Investing", items: [] }
+{ _id: 5000, text: "Children's Books", items: [] }
+{ _id: 6000, text: "Comics & Graphic Novels", items: [] }
+{ _id: 7000, text: "Cookbooks & Food Writing", items: [] }
+{ _id: 8000, text: "Crafts, Home & Garden", items: [] }
+{ _id: 9000, text: "Gift Picks", items: ["90100", "90200", "90300", "90400", "90500", "90600", "90700", "90800", "90900", "91000"] }
+{ _id: 10000, text: "History", items: [] }
+{ _id: 11000, text: "Humor & Entertainment", items: [] }
+{ _id: 12000, text: "Literature & Fiction", items: [] }
+{ _id: 13000, text: "Mystery, Thriller & Suspense", items: [] }
+{ _id: 14000, text: "Nonfiction", items: [] }
+{ _id: 15000, text: "Romance", items: [] }
+{ _id: 16000, text: "Science", items: [] }
+{ _id: 17000, text: "Science Fiction & Fantasy", items: [] }
+{ _id: 18000, text: "Sports & Outdoors", items: [] }
+{ _id: 19000, text: "Teen & Young Adult", items: [] }
+{ _id: 90100, text: "Little Bookworms", items: [] }
+{ _id: 90200, text: "Fun & Quirky", items: [] }
+{ _id: 90300, text: "Eat, Drink, Read", items: [] }
+{ _id: 90400, text: "For the Young at Heart", items: [] }
+{ _id: 90500, text: "Fantastic Fiction", items: [] }
+{ _id: 90600, text: "Nothing But the Truth", items: [] }
+{ _id: 90700, text: "Eye Candy", items: [] }
+{ _id: 90800, text: "Cops & Crooks", items: [] }
+{ _id: 90900, text: "Secrets of Success", items: [] }
+{ _id: 91000, text: "Design, Construct, Create", items: [] }

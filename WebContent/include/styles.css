@@ -1,0 +1,369 @@
+/* Need to default overrride this to affect grid footer (Total Items: xx) */
+body {
+	font-family: Arial !important;
+	font-size: 12px !important;
+	padding: 0px;
+}
+
+.grid {
+  width: 99%;
+  height: 40px;  // 40px; 
+}
+
+.dialogButtons {
+  width: 98%;
+  position: relative;
+  text-align: right;
+  height: 30px;
+}
+
+.dialogText {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 6px;
+	color: #888;
+}
+
+.dialogTitle {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 6px;
+	color: #0000F0;
+}
+
+.dialogErrorText {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 8px;
+	color: #a94442;
+}
+
+/* Use this for Reports to Me Column  */
+.redBox {
+ background-image: url(../img/redBox.png);
+ background-position: left center;
+ background-repeat: no-repeat;
+ padding-left: 12px; /* Or size of icon + spacing */
+}
+
+/* Use this for Reports to Me Column  */
+.greenBox {
+ background-image: url(../img/greenBox.png);
+ background-position: left center;
+ background-repeat: no-repeat;
+ padding-left: 12px; /* Or size of icon + spacing */
+ font-weight: bold;
+}
+
+/* Use this for Reports to Me Column  */
+.xIcon {
+ background-image: url(../img/x.png);
+ background-position: left center;
+ background-repeat: no-repeat;
+ padding-left: 15px; /* Or size of icon + spacing */
+ padding-top: 5px;
+ font-weight: bold;
+}
+
+/* Use this for Reports to Me Column  */
+.checkIcon {
+ background-image: url(../img/check.png);
+ background-position: left center;
+ background-repeat: no-repeat;
+ padding-left: 15px; /* Or size of icon + spacing */
+ padding-top: 5px;
+ font-weight: bold;
+}
+
+/* Use this for Reports to Me Column  */
+.editBook1 {
+	padding-top: 4px;
+	text-align: center;
+	color: #000;
+}
+
+.editBook {
+	cursor: pointer;
+	color: #000;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 3px 9px;
+	text-decoration: underline;
+}
+
+.padded {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* Use this for Reports to Me Column  */
+.isActive {
+	padding-top: 4px;
+	text-align: center;
+	color: #000;
+}
+
+.isActive:link {
+	color: #000;
+	//font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar {
+	padding:	10px 0px 0px 10px;
+	position:	relative;
+	overflow:	auto;
+	height: 750px;
+}
+
+.panel_north, .panel_west, .panel_east, .panel_south, .panel_center  {
+    position: fixed;
+    left:5; top:5; right:5; bottom:5;
+    margin: 0px;
+    padding:20px;
+}
+
+.panel_north {
+  /*bottom:80%;*/
+	height: 100px;
+	width: 99%;
+  float: top;
+  padding: 0px; 
+  background: white;
+  
+  /* border-style: solid solid none solid;
+  border-width: 1px;
+  border-color: #999; */
+}
+
+.panel_west {
+  top: 100px;
+  width: 230px;
+  /* right: 80%; */
+  height: 100%;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background: white; 
+   
+  border-style: solid solid solid solid;
+  border-width: 1px;
+  border-color: #999;
+}
+
+.panel_east {
+	top: 100px;
+  height: 100%;
+  left: 90%;
+  right: 0px;
+  padding: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  background: yellow; 
+  
+  border-style: solid solid solid solid;
+  border-width: 1px;
+  border-color: #999;
+  overflow:	auto;
+}
+
+.panel_south {
+  bottom: 20%;
+	padding: 10px; 
+	background: white;	
+}
+
+.panel_center {
+	top: 100px;
+	left: 235px;
+	width: 90%;
+	height: 100%;
+	padding: 0px;
+	background: white;
+	
+	margin-top: 0px;
+	margin-left: 5px;
+  margin-right: 0px;
+  
+  border-style: solid solid solid solid;
+  border-width: 1px;
+  border-color: #999;
+  
+  overflow:	auto;
+}
+
+.inset {
+	width: 1050px;				/* Tuned to 1280x1024 pixel*/
+	overflow: auto;
+	overflow-y: hidden;
+	-ms-overflow-y: hidden;	
+}
+
+.spacer_10 {
+	width: 10px;
+	height: 10px;
+	background: white;
+}
+
+.header { 
+	background: #419641;
+	/* background: #2589CE; */
+	color: #FFF;
+	font-family: Tahoma, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	/* T R B L */
+	padding: 7px 0px 8px 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.header_text {
+	background: #62C462;
+	background: -ms-linear-gradient(top, #62C462 0%, #357A35 100%);
+	background: -moz-linear-gradient(top, #62C462 0%, #357A35 100%);
+	background: -o-linear-gradient(top, #62C462 0%, #357A35 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #62C462), color-stop(100, #357A35));
+	background: -webkit-linear-gradient(top, #62C462 0%, #357A35 100%);
+	background: linear-gradient(to bottom, #62C462 0%, #357A35 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#488ecf', endColorstr='#062a4f', GradientType=0 );
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+  height: 40px !important;
+}
+
+.header_filtered {
+	background: rgba(247,232,62,1);
+	background: -moz-linear-gradient(top, rgba(247,232,62,1) 0%, rgba(204,149,38,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(247,232,62,1)), color-stop(100%, rgba(204,149,38,1)));
+	background: -webkit-linear-gradient(top, rgba(247,232,62,1) 0%, rgba(204,149,38,1) 100%);
+	background: -o-linear-gradient(top, rgba(247,232,62,1) 0%, rgba(204,149,38,1) 100%);
+	background: -ms-linear-gradient(top, rgba(247,232,62,1) 0%, rgba(204,149,38,1) 100%);
+	background: linear-gradient(to bottom, rgba(247,232,62,1) 0%, rgba(204,149,38,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7e83e', endColorstr='#cc9526', GradientType=0 );
+
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+  color: #0d1b75;
+  height: 40px !important;
+}
+
+.gridHeader {
+	font-family: Arial;
+	font-weight: bold;
+	height: 20px !important;
+	font-size: 12px;
+	color: #FFF;
+	/* border:1px solid #009; */ 
+  border-collapse:collapse;
+
+background: rgba(72,142,207,1);
+background: -moz-linear-gradient(top, rgba(72,142,207,1) 0%, rgba(6,42,79,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(72,142,207,1)), color-stop(100%, rgba(6,42,79,1)));
+background: -webkit-linear-gradient(top, rgba(72,142,207,1) 0%, rgba(6,42,79,1) 100%);
+background: -o-linear-gradient(top, rgba(72,142,207,1) 0%, rgba(6,42,79,1) 100%);
+background: -ms-linear-gradient(top, rgba(72,142,207,1) 0%, rgba(6,42,79,1) 100%);
+background: linear-gradient(to bottom, rgba(72,142,207,1) 0%, rgba(6,42,79,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#488ecf', endColorstr='#062a4f', GradientType=0 );
+
+/* background: rgba(191,191,191,1);
+background: -moz-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(184,184,184,1) 50%, rgba(176,176,176,1) 51%, rgba(214,214,214,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(191,191,191,1)), color-stop(50%, rgba(184,184,184,1)), color-stop(51%, rgba(176,176,176,1)), color-stop(100%, rgba(214,214,214,1)));
+background: -webkit-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(184,184,184,1) 50%, rgba(176,176,176,1) 51%, rgba(214,214,214,1) 100%);
+background: -o-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(184,184,184,1) 50%, rgba(176,176,176,1) 51%, rgba(214,214,214,1) 100%);
+background: -ms-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(184,184,184,1) 50%, rgba(176,176,176,1) 51%, rgba(214,214,214,1) 100%);
+background: linear-gradient(to bottom, rgba(191,191,191,1) 0%, rgba(184,184,184,1) 50%, rgba(176,176,176,1) 51%, rgba(214,214,214,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbfbf', endColorstr='#d6d6d6', GradientType=0 );
+ */
+ 
+  /*background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#888), to(#333))
+   background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+  background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");	
+	background: -o-linear-gradient(top,#005fbf,003f7f); */ 
+}
+
+.gridField {
+	font-family: Arial;
+	font-size: 12px;
+	color: #444;
+}
+
+.main_text {
+	font-family: Arial Black;
+	font-weight: bold;
+	font-size: 25pt;
+	color: #000
+}
+
+.date_text {
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: bold;	
+	color: #000
+}
+
+.div_default {
+	/* T R B L */	
+	padding: 10px 0px 0px 10px;
+	text-align: left;
+	background: #FFF;
+}
+
+.label_text {
+	font-family: Arial;
+	font-size: 12px;
+	padding: 0px 0px 0px 0px;
+	color: #000;
+}
+
+.subheading_text {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;	
+	padding: 0px 0px 0px 0px;
+	color: #000;
+}
+
+.toptable {
+	padding: 0px 0px 0px 0px !important;
+}
+
+.button_default {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	padding: 5px 20px 5px 20px;
+	border: none;
+	background: #2589CE;
+}
+
+.button_default:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	padding: 5px 20px 5px 20px;
+	border: none;
+	background: #259AEE;
+}
+
+.button_default:active {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFF;
+	border: none;
+	background: #256585;
+}
